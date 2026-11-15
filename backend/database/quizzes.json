@@ -1,0 +1,273 @@
+
+[
+  {
+    "title": "Fundamentos de JavaScript",
+    "description": "Teste os seus conhecimentos sobre os conceitos básicos de JavaScript.",
+    "category": "Programação",
+    "difficulty": "easy",
+    "duration": 10,
+    "questions": [
+      {
+        "text": "Qual palavra-chave é usada para declarar uma variável em JavaScript?",
+        "options": [
+          { "text": "var", "is_correct": true },
+          { "text": "echo", "is_correct": false },
+          { "text": "print", "is_correct": false },
+          { "text": "define", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual método apresenta uma mensagem na consola do navegador?",
+        "options": [
+          { "text": "console.log()", "is_correct": true },
+          { "text": "document.write()", "is_correct": false },
+          { "text": "alert.log()", "is_correct": false },
+          { "text": "print()", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual tipo de dado representa verdadeiro ou falso?",
+        "options": [
+          { "text": "String", "is_correct": false },
+          { "text": "Boolean", "is_correct": true },
+          { "text": "Number", "is_correct": false },
+          { "text": "Object", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual símbolo é usado para comentários de uma linha?",
+        "options": [
+          { "text": "<!-- -->", "is_correct": false },
+          { "text": "//", "is_correct": true },
+          { "text": "**", "is_correct": false },
+          { "text": "##", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual método permite adicionar um elemento ao final de um array?",
+        "options": [
+          { "text": "pop()", "is_correct": false },
+          { "text": "shift()", "is_correct": false },
+          { "text": "push()", "is_correct": true },
+          { "text": "slice()", "is_correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Fundamentos de HTML5",
+    "description": "Avalie os seus conhecimentos sobre a estrutura e os elementos HTML5.",
+    "category": "Desenvolvimento Web",
+    "difficulty": "easy",
+    "duration": 10,
+    "questions": [
+      {
+        "text": "O que significa HTML?",
+        "options": [
+          { "text": "HyperText Markup Language", "is_correct": true },
+          { "text": "HighText Machine Language", "is_correct": false },
+          { "text": "Hyper Transfer Main Language", "is_correct": false },
+          { "text": "Home Tool Markup Language", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual elemento define o maior título em HTML?",
+        "options": [
+          { "text": "<h6>", "is_correct": false },
+          { "text": "<heading>", "is_correct": false },
+          { "text": "<h1>", "is_correct": true },
+          { "text": "<title>", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual atributo especifica o destino de um link?",
+        "options": [
+          { "text": "src", "is_correct": false },
+          { "text": "href", "is_correct": true },
+          { "text": "link", "is_correct": false },
+          { "text": "target", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual elemento é usado para inserir uma imagem?",
+        "options": [
+          { "text": "<image>", "is_correct": false },
+          { "text": "<picture>", "is_correct": false },
+          { "text": "<img>", "is_correct": true },
+          { "text": "<src>", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual elemento representa uma lista não ordenada?",
+        "options": [
+          { "text": "<ol>", "is_correct": false },
+          { "text": "<ul>", "is_correct": true },
+          { "text": "<li>", "is_correct": false },
+          { "text": "<dl>", "is_correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Fundamentos de CSS3",
+    "description": "Teste os seus conhecimentos sobre estilos, seletores e propriedades CSS.",
+    "category": "Desenvolvimento Web",
+    "difficulty": "easy",
+    "duration": 10,
+    "questions": [
+      {
+        "text": "O que significa CSS?",
+        "options": [
+          { "text": "Computer Style Sheets", "is_correct": false },
+          { "text": "Cascading Style Sheets", "is_correct": true },
+          { "text": "Creative Style System", "is_correct": false },
+          { "text": "Colorful Style Sheets", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual propriedade altera a cor do texto?",
+        "options": [
+          { "text": "background-color", "is_correct": false },
+          { "text": "font-style", "is_correct": false },
+          { "text": "color", "is_correct": true },
+          { "text": "text-size", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual seletor seleciona um elemento pelo seu ID?",
+        "options": [
+          { "text": ".", "is_correct": false },
+          { "text": "#", "is_correct": true },
+          { "text": "*", "is_correct": false },
+          { "text": "@", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual propriedade define o espaço interno de um elemento?",
+        "options": [
+          { "text": "margin", "is_correct": false },
+          { "text": "padding", "is_correct": true },
+          { "text": "border", "is_correct": false },
+          { "text": "spacing", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual propriedade transforma um elemento num contentor flexível?",
+        "options": [
+          { "text": "position: flex", "is_correct": false },
+          { "text": "display: flex", "is_correct": true },
+          { "text": "flex: display", "is_correct": false },
+          { "text": "layout: flex", "is_correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Lógica de Programação",
+    "description": "Avalie a sua capacidade de resolver problemas através da lógica de programação.",
+    "category": "Informática",
+    "difficulty": "medium",
+    "duration": 15,
+    "questions": [
+      {
+        "text": "O que é um algoritmo?",
+        "options": [
+          { "text": "Uma linguagem de programação", "is_correct": false },
+          { "text": "Uma sequência de passos para resolver um problema", "is_correct": true },
+          { "text": "Um tipo de computador", "is_correct": false },
+          { "text": "Um sistema operativo", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual estrutura permite executar código enquanto uma condição for verdadeira?",
+        "options": [
+          { "text": "if", "is_correct": false },
+          { "text": "while", "is_correct": true },
+          { "text": "switch", "is_correct": false },
+          { "text": "return", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual operador representa a igualdade em muitas linguagens?",
+        "options": [
+          { "text": "=", "is_correct": false },
+          { "text": "==", "is_correct": true },
+          { "text": "+", "is_correct": false },
+          { "text": "%", "is_correct": false }
+        ]
+      },
+      {
+        "text": "O que é uma variável?",
+        "options": [
+          { "text": "Um espaço para armazenar dados", "is_correct": true },
+          { "text": "Uma função obrigatória", "is_correct": false },
+          { "text": "Um erro do programa", "is_correct": false },
+          { "text": "Um tipo de ciclo", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual estrutura é utilizada para tomar decisões?",
+        "options": [
+          { "text": "for", "is_correct": false },
+          { "text": "while", "is_correct": false },
+          { "text": "if/else", "is_correct": true },
+          { "text": "break", "is_correct": false }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Fundamentos de C#",
+    "description": "Teste os seus conhecimentos sobre a linguagem de programação C#.",
+    "category": "Programação",
+    "difficulty": "medium",
+    "duration": 15,
+    "questions": [
+      {
+        "text": "Qual palavra-chave é usada para declarar uma classe em C#?",
+        "options": [
+          { "text": "object", "is_correct": false },
+          { "text": "class", "is_correct": true },
+          { "text": "struct", "is_correct": false },
+          { "text": "define", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual método é o ponto de entrada tradicional de uma aplicação C#?",
+        "options": [
+          { "text": "Start()", "is_correct": false },
+          { "text": "Run()", "is_correct": false },
+          { "text": "Main()", "is_correct": true },
+          { "text": "Begin()", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual tipo de dado representa números inteiros?",
+        "options": [
+          { "text": "string", "is_correct": false },
+          { "text": "bool", "is_correct": false },
+          { "text": "int", "is_correct": true },
+          { "text": "double", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual palavra-chave cria uma nova instância de uma classe?",
+        "options": [
+          { "text": "create", "is_correct": false },
+          { "text": "new", "is_correct": true },
+          { "text": "instance", "is_correct": false },
+          { "text": "this", "is_correct": false }
+        ]
+      },
+      {
+        "text": "Qual operador é usado para comparar dois valores por igualdade?",
+        "options": [
+          { "text": "=", "is_correct": false },
+          { "text": "==", "is_correct": true },
+          { "text": "!=", "is_correct": false },
+          { "text": "=>", "is_correct": false }
+        ]
+      }
+    ]
+  }
+]
