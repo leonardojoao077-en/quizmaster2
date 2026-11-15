@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster - Resultados</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <h1>Quiz<span>Master</span></h1>
+
+            <nav>
+                <a href="index.html">Quizzes</a>
+                <a href="history.html">Histórico</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="results-container">
+
+            <div class="results-header">
+                <h2>Quiz concluído!</h2>
+                <p id="quiz-title">Resultados do teu quiz</p>
+            </div>
+
+            <div class="score-card">
+                <p>O teu resultado</p>
+                <h1 id="score">0/0</h1>
+                <h2 id="percentage">0%</h2>
+                <p id="result-message">A calcular resultado...</p>
+            </div>
+
+            <div class="results-details">
+                <div class="result-item">
+                    <span>Respostas correctas</span>
+                    <strong id="correct-answers">0</strong>
+                </div>
+
+                <div class="result-item">
+                    <span>Respostas incorrectas</span>
+                    <strong id="incorrect-answers">0</strong>
+                </div>
+
+                <div class="result-item">
+                    <span>Tempo utilizado</span>
+                    <strong id="time-taken">00:00</strong>
+                </div>
+            </div>
+
+            <div class="results-actions">
+                <a href="index.html" class="quiz-button">
+                    Voltar aos quizzes
+                </a>
+
+                <a href="history.html" class="secondary-button">
+                    Ver histórico
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="js/results.js"></script>
+</body>
+</html>

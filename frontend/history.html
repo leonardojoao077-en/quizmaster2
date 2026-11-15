@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster - Histórico</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <h1>Quiz<span>Master</span></h1>
+
+            <nav>
+                <a href="index.html">Quizzes</a>
+                <a href="history.html">Histórico</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="history-container">
+
+            <div class="history-header">
+                <h2>Histórico de tentativas</h2>
+                <p>Consulta os resultados dos quizzes que já realizaste.</p>
+            </div>
+
+            <div class="history-summary">
+                <div class="history-summary-card">
+                    <span>Total de tentativas</span>
+                    <strong id="total-attempts">0</strong>
+                </div>
+
+                <div class="history-summary-card">
+                    <span>Média de aproveitamento</span>
+                    <strong id="average-score">0%</strong>
+                </div>
+            </div>
+
+            <div class="history-table-container">
+                <table class="history-table">
+                    <thead>
+                        <tr>
+                            <th>Quiz</th>
+                            <th>Pontuação</th>
+                            <th>Aproveitamento</th>
+                            <th>Tempo</th>
+                            <th>Data</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="history-list">
+                        <tr>
+                            <td colspan="5">A carregar histórico...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p id="history-message" class="error-message"></p>
+
+            <div class="history-actions">
+                <a href="index.html" class="quiz-button">
+                    Voltar aos quizzes
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="js/history.js"></script>
+</body>
+</html>

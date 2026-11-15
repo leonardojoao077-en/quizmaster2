@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>QuizMaster - Realizar Quiz</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <h1>Quiz<span>Master</span></h1>
+
+            <nav>
+                <a href="index.html">Quizzes</a>
+                <a href="history.html">Histórico</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="quiz-container">
+
+            <div class="quiz-top">
+                <div>
+                    <h2 id="quiz-title">A carregar quiz...</h2>
+                    <p id="question-progress">Pergunta 0 de 0</p>
+                </div>
+
+                <div class="timer">
+                    <span>Tempo restante</span>
+                    <h3 id="timer">00:00</h3>
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+
+            <section class="question-card">
+
+                <h3 id="question-text">
+                    A carregar pergunta...
+                </h3>
+
+                <div id="options-list" class="options-list">
+                </div>
+
+            </section>
+
+            <div class="quiz-actions">
+
+                <button id="previous-btn" class="secondary-button" disabled>
+                    Anterior
+                </button>
+
+                <button id="next-btn" class="quiz-button">
+                    Próxima pergunta
+                </button>
+
+                <button id="submit-btn" class="quiz-button" hidden>
+                    Submeter respostas
+                </button>
+
+            </div>
+
+            <p id="error-message" class="error-message"></p>
+
+        </section>
+
+    </main>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>

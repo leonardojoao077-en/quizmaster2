@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <h1>Quiz<span>Master</span></h1>
+
+            <nav>
+                <a href="index.html" class="active">Quizzes</a>
+                <a href="history.html">History</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="welcome">
+            <h2>welcome to QuizMaster!</h2>
+            <p>Choose a quiz and test your knowledge.</p>
+        </section>
+
+        <section class="quiz-section">
+            <div class="section-heading">
+                <h2>Quizzes avalible</h2>
+                <span id="quiz-count">loading...</span>
+            </div>
+
+            <div id="quiz-list" class="quiz-grid">
+                <p>loading quizzes...</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
